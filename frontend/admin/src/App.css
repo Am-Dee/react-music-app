@@ -1,0 +1,78 @@
+.admin-dashboard {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: lightslategray;
+  height: 100vh;
+}
+
+.dropdown-section {
+  width: 20%;
+  background-color: #de262619;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow-y: auto;
+
+}
+
+.dropdowns {
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.dropdowns img {
+  width: 40px;
+  height: 40px;
+  /* border-radius: 50%; */
+  margin-right: 10px;
+}
+
+.dropdowns p {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.dropdowns select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.content-section {
+  width: 80%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #a4a4a4;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px 10px;
+  border-bottom: 2px solid #ccc;
+}
